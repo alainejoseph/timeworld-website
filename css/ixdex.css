@@ -1,0 +1,66 @@
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  background-color: black;
+  color: white;
+  
+}
+.img-wrapper {
+  position: relative;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 8rem;
+  bottom: 0;
+  left: 10rem;
+  right: 0
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+#imgbtn{
+  left: 20rem;
+}
+.carousel-item{
+  height: 20rem;
+  width: 100%;
+  background-color: black;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.overlay{
+  height: 15%;
+  position: absolute;
+  bottom: 0;
+  left: 10rem;
+  right: 0;
+  padding-bottom: 5rem;
+}
+#slide1{
+ background-image: url(./assets\oceanus_mobile.jpg);
+}
+.heading{
+  padding: 2rem;
+  color: black;
+  text-align: center;
+}
+.footer{
+  height: 5rem;
+  color: white;
+}
+.header{
+  height: 3rem;
+}
