@@ -33,7 +33,7 @@
   left: 20rem;
 }
 .carousel-item{
-  height: 20rem;
+  height:20rem;
   width: 100%;
   background-color: black;
   color: white;
@@ -42,9 +42,9 @@
   background-size: cover;
 }
 .overlay{
-  height: 15%;
+  height: 20rem;
   position: absolute;
-  bottom: 0;
+  bottom: 3rem;
   left: 10rem;
   right: 0;
   padding-bottom: 5rem;
