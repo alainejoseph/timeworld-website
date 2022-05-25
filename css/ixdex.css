@@ -42,12 +42,13 @@
   background-size: cover;
 }
 .overlay{
-  height: 32rem;
+  height: 4rem;
   position: absolute;
-  bottom: 3rem;
-  left: 10rem;
+  bottom: 0rem;
+  left: 0rem;
   right: 0;
   padding-bottom: 5rem;
+  background-color: rgb(65, 73, 71);
 }
 #slide1{
  background-image: url(./assets\oceanus_mobile.jpg);
