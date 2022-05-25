@@ -1,0 +1,35 @@
+.bread{
+    background-color: rgb(225, 240, 241);
+    width: 8rem;
+    height: 2rem;
+}
+.carousel-item{
+    height: 24rem;
+    width: 24rem;
+    background-color: black;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+  }
+  .overlay{
+    height: 4rem;
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+    right: 0;
+    padding-bottom: 5rem;
+    background-color: rgb(65, 73, 71);
+  }
+  .test{
+      height: 24rem;
+      width: 24rem;
+      opacity: 1;
+  }
+  .carousel-indicators [data-bs-target]{
+      height: 5rem;
+      width: 5rem;
+  }
+  .carousel-indicators{
+      justify-content: left;
+  }
