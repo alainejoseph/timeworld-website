@@ -69,5 +69,14 @@
   bottom: 5rem;
 }
 .pos{
+  position: absolute;
+  left: 76rem;
+  bottom: 1rem;
+
+}
+.pos2{
+  position: absolute;
+  right: 67rem;
+  bottom: 1rem;
 
 }
